@@ -1,0 +1,99 @@
+.main {
+  margin-bottom: 1175px;
+}
+
+.menu {
+  float: left;
+}
+
+.menu1, .menu2 {
+  width: 250px; height: 210px;
+  border: 1px solid rgb(15, 216, 243);
+  background-color: white;
+  border-top-right-radius: 10px; border-top-left-radius: 10px;
+}
+
+.menu1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.menuTitle {
+  line-height: 50px;
+  margin-top: 0;
+  border-top-right-radius: 10px; border-top-left-radius: 10px;
+  color: white; background: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+}
+
+.menuTitle span {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.menu1 ul, .menu2 ul {
+  padding: 0;
+}
+
+.menu1 li, .menu2 li {
+  padding: 0 5px;
+  font-weight: bolder;
+}
+
+.menu1 li:first-child, .menu2 li:first-child {
+  margin-top: -17px;
+}
+
+.menu1 li a, .menu2 li a {
+  display: block;
+  height: 20px;
+  padding: 8px 0 8px 0;
+  border-bottom: 1px solid #4D82C4;
+  font-size: 13px;
+  color: black;
+}
+
+.menu1 li a:hover, .menu2 li a:hover {
+  color: #4D82C4;
+}
+
+.menuSent {
+  float: right;
+  width: 625px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.sentTitle {
+  line-height: 100px; width: 100%;
+  margin-top: 0;
+  border-top-right-radius: 10px; border-top-left-radius: 10px;
+  color: white; background: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border: 1px solid rgb(15, 216, 243); box-sizing: border-box;
+}
+
+.sentTitle span {
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.sent {
+  padding: 0 10px;
+}
+
+.sentSubTitle {
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+  border-bottom: 3px solid #4D82C4;
+}
+
+.sent li {
+  color: rgb(136, 230, 226);
+  font-weight: bolder;
+}
+
+.sent ul p {
+  font-size: 13px;
+}
